@@ -39,7 +39,7 @@ import { isPlatformBrowser } from '@angular/common';
     MessagesComponent,
     HeroSearchComponent
   ],
-  providers: [ HeroService, MessageService ],
+  providers: [ HeroService, MessageService],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {

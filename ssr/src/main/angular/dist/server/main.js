@@ -179,6 +179,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.title = 'Tour of Heroes';
+        console.log(window.location.href);
     }
     return AppComponent;
 }());
@@ -1023,7 +1024,7 @@ exports.LAZY_MODULE_MAP = {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\jay.patil\Desktop\ssr\ssr\src\main\angular\src\main.server.ts */"./src/main.server.ts");
+module.exports = __webpack_require__(/*! c:\Users\jay.patil\Desktop\ssr\ssr\src\main\angular\src\main.server.ts */"./src/main.server.ts");
 
 
 /***/ }),
